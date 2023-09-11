@@ -14,8 +14,15 @@ export class MainPageComponent  {
         power:1000
         },
         {name:'Goku',
-        power:900
+        power:9500
+        },
+        {name:'Vegeta',
+        power:7500
         }];
+        onNewCharacter(character:Character):void{
+            console.log('mainpage');
+                console.log(character);
+        }
 
  
 }
